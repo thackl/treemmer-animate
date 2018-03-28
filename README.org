@@ -1,0 +1,11 @@
+Just a few crude lines of bash and R code to animate the process of trimming a
+phylogenetic tree with [[https://git.scicore.unibas.ch/TBRU/Treemmer][Treemmer]] ([[https://doi.org/10.1101/249391][Menardo et al., bioRxiv, 2018]])
+
+
+#+BEGIN_SRC sh
+cd example
+../treemmer-animate.sh tree.nwk
+Rscript ../treemmer-animate.R
+#+END_SRC
+
+[[img/treemmer.gif]]
