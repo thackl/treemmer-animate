@@ -1,6 +1,9 @@
-Just a few crude lines of bash and R code to animate the process of trimming a
-phylogenetic tree with [[https://git.scicore.unibas.ch/TBRU/Treemmer][Treemmer]] ([[https://doi.org/10.1101/249391][Menardo et al., bioRxiv, 2018]])
+I recently discovered [[https://git.scicore.unibas.ch/TBRU/Treemmer][Treemmer]] ([[https://doi.org/10.1101/249391][Menardo et al., bioRxiv, 2018]]) for reducing the
+complexity of large trees down to a few representative taxa. Turned out to be
+really useful for my analyses!
 
+Here are just a few crude lines of bash and R code to animate the process of
+Treemming a phylogenetic tree using [[https://github.com/GuangchuangYu/ggtree][ggtree]] & [[https://github.com/dgrtwo/gganimate][gganimate]].
 
 #+BEGIN_SRC sh
 cd example

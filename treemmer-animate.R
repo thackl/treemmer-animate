@@ -28,8 +28,8 @@ ggt <- ggtree(trees, aes(frame = .id), layout="fan") +
      scale_shape_manual(values= c(19, 2, 1)) +
      theme(legend.position="left") 
 
-# plot as facets
+write("plotting as facets", stderr())
 ggt + facet_wrap(~.id)
 
-# save as gif
+write("saving as gif", stderr())
 gga <- gganimate(ggt, "treemmer.gif", interval=.2, ani.width = 1024, ani.height=1024)
